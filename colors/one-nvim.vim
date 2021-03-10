@@ -178,9 +178,9 @@ local highlight_groups = {
 -- Diff Highlighting --
 -----------------------
 
-     DiffAdd     = { fg = hue_4, visual_grey},
-     DiffChange  = { fg = hue_6, visual_grey},
-     DiffDelete  = { fg = hue_5, visual_grey},
+     DiffAdd     = { fg = hue_4, bg = none, visual_grey},
+     DiffChange  = { fg = hue_6, bg = none, visual_grey},
+     DiffDelete  = { fg = hue_5, bg = none, visual_grey},
      DiffText    = { fg = hue_2, visual_grey},
      DiffAdded   = { fg = hue_4, visual_grey},
      DiffFile    = { fg = hue_5, visual_grey},
